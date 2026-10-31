@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input{
+       
+        padding: 20px;
+    }
+    #myCheckbox:checked~.box{
+            display: none;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<body>
+    <!-- input:thẻ nhập nội dung -->
+    <input type="text" placeholder="Enter text">
+    <br>
+    <input type="number" placeholder="Enter number">
+    <br>
+    <input type="email" placeholder="Enter email">
+    <br>
+    <input type="password" placeholder="Enter password">
+    <br>
+    <label for="answer1">A</label>
+    <input type="radio" id="answer1" name="answer" value="A">
+    <label for="answer2">B</label>
+    <input type="radio" id="answer2"name="answer" value="B">
+    <label for="answer3">C</label>
+    <input type="radio" id="answer3"name="answer" value="C">
+    <label for="answer4">D</label>
+    <input type="radio" id="answer4" name="answer" value="D">
+    <br>
+    <input type="checkbox" name="" id="myCheckbox">
+    <div class="box"></div>
+    <label for="asd">click me</label>
+    <br>
+    <textarea name="" id=""></textarea>
+</body>
+</html>

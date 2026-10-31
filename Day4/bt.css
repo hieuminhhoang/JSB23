@@ -1,0 +1,41 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+.menu a {
+    color: white;
+    margin: 0px 15px;
+
+}
+main{
+    Padding:40px;
+}
+
+h1{
+    text-align: center;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product{
+width: 180px;
+text-align: center;
+padding:15px;
+border: 1px solid black;
+}
+.image img{
+    width: 100px;
+    height: 100px;
+}
+button{
+    flex-wrap: wrap;
+}
+
+

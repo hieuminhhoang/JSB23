@@ -1,0 +1,56 @@
+.container{
+    height: 600px;
+    width:auto;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly;
+    align-items: stretch; */
+    /* gap :20px 30px;
+    flex-wrap: wrap ; */
+    /* collum: chieu doc
+        row: chieu ngang
+        reverse la nguoc  */
+        /* 
+        center : o giua
+        flex-start: dinh dau ben trai
+        flex-end : dinh vao ben phai
+        space-between:cach deu nhau
+        space-around: cach deu va cach 2 canh
+        space-evenly: cach deu ca canh va cach phtu
+        
+        */
+        /* 
+        strreach : dan
+        flex-wrap: wrap : goi gon
+        reverse: nguoc lai */
+        align-items: center;
+
+
+    
+}
+.box{
+    height: 100px;
+    /* width: 100px; */
+    background-color: brown;
+    color: black;
+}
+.box1{
+    flex : auto;
+    background-color: yellow;
+    /* order: 2; */
+}
+.box2{
+    flex :auto;
+    background-color: green;
+    /* order: 1; */
+    align-self: flex-start;
+}
+.box3{
+    flex: auto;
+    /* flex : 1; */
+    background-color:red;
+    /* order: 3; */
+}
+/* flex.... la cach chai cua cach item */
+/* order: thay doi thu tu uu tien */

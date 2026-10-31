@@ -1,0 +1,20 @@
+.menucontainer{
+    height: 1000px;
+    width: 10000px;
+    background-color: navy;
+    display: inline-block;
+
+}
+.menucontainer .item{
+    color: antiquewhite;
+    display: inline-block;
+}
+.menucontainer .item1{
+    color: white;
+    margin-right: 100px;
+}
+
+
+.menucontainer .item2:hover{
+    color: aquamarine;
+}

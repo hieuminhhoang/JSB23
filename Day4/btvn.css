@@ -1,0 +1,49 @@
+
+.title-box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-box h2 {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 23%;
+    margin: 1%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card .img-box {
+    width: 100%;
+    height: 218px;
+ 
+}
+
+.card .img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.card p {
+    padding: 12px 8px;
+    font-weight: bold;
+    font-size: 15px;
+}

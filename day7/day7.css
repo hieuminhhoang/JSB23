@@ -1,0 +1,56 @@
+.title{
+    background-color: bisque;
+    /* margin-top:20px; */
+    position: relative;
+    bottom:80px;
+    /*  Cách vị trí gốc 80px */
+    left: 50px;
+}
+/* postision static ( giá trị mặc định)
+    postision:relative --> dùng được các thuộc tính top,left,right,botton
+    =>thẻ có thể di chuyển 4 hướng top,left.right,bottom mà ko làm ảnh hường đến thẻ xung quang
+    Hãy hình dung việc sử dụng postision relative như đang thả diều 
+    -thẻ gốc bên đầu luôn ở vị trí mặc định cùa nó trong trang
+    -nội dung có thể di chuyển mà ko ảnh hưởng đến các thẻ xung quanh
+    postision:absolute;
+    - thẻ đó sẽ được nhắc ra khỏi dong chảy của trang=> ảnh hưởng đến vị trí xung quang( như trò rút gỗ)
+    -thẻ đó hoạt động trong ko gian giới hạn của thẻ cha gần nhất có postision  là absolute/relative
+    position:fixed;
+    -làm cho thẻ cố định nhưng di chuyển theo màn hình
+*/
+.container{
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border: 5px solid red;
+}
+.box1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 91, 91);
+    top: 0px;
+}
+.box2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 91, 91);
+    bottom: 0px;
+}
+.box3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 91, 91);
+    top: 0px;
+    right: 0px;
+}
+.box4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 91, 91);
+    bottom: 0px;
+    right: 0px;
+}

@@ -1,0 +1,7 @@
+3 Cach the style vao trang web:
+
+- Inline style:css truc tiep vao trong the:
+Vd: <h1: style = "blackground-color:red;color:black">troi hon nam dep</h1>
+
+-Internal style:gan thuoc tinh class hoac id vao trong the de css
+Inline style--> Internal style

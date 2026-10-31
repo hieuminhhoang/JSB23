@@ -1,0 +1,14 @@
+.footer {
+    background-color: #222;
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer hr {
+    width: 90%;
+}
